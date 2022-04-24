@@ -5,7 +5,7 @@ function Appbar() {
     <div className="header">
     <Navbar bg="dark" variant="dark" fixed="top">
     <Container>
-      <NavbarBrand href="#home">E-Tax</NavbarBrand>
+      <NavbarBrand href="#home"></NavbarBrand>
       </Container>
       </Navbar>
     </div>

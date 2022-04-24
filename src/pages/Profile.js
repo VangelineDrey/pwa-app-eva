@@ -12,30 +12,35 @@ const [unameState, setUname] = useState("User")
       <Content>
       <div style={{
         display:"flex",
-        justifyContent:"space-around",
         margin:"0px"
       }}>
-        <div>
-          <img style={{width:"130px", height:"130px", borderRadius:"70px"}} 
-          src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBlcnNvbnxlbnwwfDJ8MHx8&auto=format&fit=crop&w=1000&q=60"
+        <div className="profile">
+          <img style={{width:"100px", height:"100px", borderRadius:"70px"}} 
+          src="https://media.istockphoto.com/photos/businessman-silhouette-as-avatar-or-default-profile-picture-picture-id476085198?k=20&m=476085198&s=612x612&w=0&h=8J3VgOZab_OiYoIuZfiMIvucFYB8vWYlKnSjKuKeYQM="
           />
-        <div>
-          <center>
-          <h4>{unameState}</h4>
+          {/* <h4>{unameState}</h4>
           <Button
           onClick={()=>{
             setUname("Ocha");
           }}>
             Change Username
-          </Button>
-          </center>
+          </Button> */}
+        <div>
         </div>
         </div>
       </div>
-      <br></br>
-      <p>Id:<br></br>1542 3567 4588</p>
-      <p>Email:<br></br>etax.user@gmail.com</p>
-      <p>Phone Number:<br></br>+62 8996574457</p>
+      OTHER INFORMATION
+      <hr></hr>
+      FAQ<hr></hr>
+      Abot e-Tax<hr></hr>
+      Rate Us<hr></hr>
+      Preference<br></br>
+      Language
+      <div className="mb-2">
+      <Button variant="secondary" size="sm">
+      LOG OUT
+    </Button>
+      </div>
     </Content>
     <Footer />
     </div>
