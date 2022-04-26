@@ -2,7 +2,7 @@ import { Container, Nav, Navbar, NavbarBrand } from "react-bootstrap";
 
 function Footer() {
     return(
-    <Navbar bg="dark" variant="dark" fixed="bottom" className="navbar">
+    <Navbar   variant="dark" fixed="bottom" className="navbar">
     <Container>
       <div className="footer">
        <Nav className="me-auto">
